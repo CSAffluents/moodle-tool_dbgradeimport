@@ -25,7 +25,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 if ($hassiteconfig) {
-    $settings = new admin_settingpage('tool_dbgradeimport', get_string('settings'));
+    $settings = new admin_settingpage('tool_dbgradeimport', get_string('settings', 'tool_dbgradeimport'));
 
     $plugin = new tool_dbgradeimport_base();
 

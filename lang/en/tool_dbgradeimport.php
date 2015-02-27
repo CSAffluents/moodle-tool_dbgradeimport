@@ -74,6 +74,7 @@ $string['remotegradesvaluefield'] = 'Remote grades value field';
 $string['remotegradesvaluefield_desc'] = 'The field that contain the grades.';
 $string['remotemaxgradefield'] = 'Remote max grade field';
 $string['remotemaxgradefield_desc'] = 'The field used to fill the max grade of the grade items.';
+$string['settings'] = 'Settings';
 $string['settingsheaderdb'] = 'External database connection';
 $string['settingsheaderlocal'] = 'Local field mapping';
 $string['settingsheaderremotegrade'] = 'Grade items sync';
