@@ -34,9 +34,9 @@ if ($hassiteconfig) {
 
     // General settings.
     $settings->add(new admin_setting_heading('tool_dbgradeimport_generalsettings', get_string('generalsettings', 'admin'), ''));
-    $settings->add(new admin_setting_configtext('tool_dbgradeimport_gradeitemsprefix',
+    $settings->add(new admin_setting_configtext('tool_dbgradeimport/gradeitemsprefix',
             $plugin->get_string('gradeitemsprefix'), $plugin->get_string('gradeitemsprefix_desc'), ''));
-    $settings->add(new admin_setting_configcheckbox('tool_dbgradeimport_ignorehiddencourses',
+    $settings->add(new admin_setting_configcheckbox('tool_dbgradeimport/ignorehiddencourses',
             $plugin->get_string('ignorehiddencourses'),
             $plugin->get_string('ignorehiddencourses_desc'), 1));
 
