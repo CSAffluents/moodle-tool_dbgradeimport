@@ -63,7 +63,7 @@ class tool_dbgradeimport_importer extends tool_dbgradeimport_base {
     public function __construct($verbose = false) {
         $this->database = new tool_dbgradeimport_database();
 
-        if (isset($verbose)) {
+        if (!empty($verbose)) {
             $this->trace = new text_progress_trace();
         } else {
             $this->trace = new null_progress_trace();
